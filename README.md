@@ -4,7 +4,7 @@ A simple and responsive **Bill Split & Tip Calculator** that helps users divide 
 
 ---
 
-Please open the app here:https://app.netlify.com/projects/split-my-bill-now/overview
+Please open the app here: https://split-my-bill-now.netlify.app/
 
 DEMO
 
