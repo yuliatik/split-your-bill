@@ -1,0 +1,152 @@
+    body {
+        background-image: url("body.jpeg");
+        background-size:cover;
+        background-position: center;
+        background-color:rgba(94, 97, 93, 0.9);
+        background-position: fixed;
+        background-repeat: no-repeat;
+        margin:0;
+        }
+        
+        #container{
+            display:flex;
+            flex-direction:column;
+            background-color:rgba(140, 140, 140, 0.9);
+            flex-wrap:wrap;
+            color: white;
+            width: 400px;
+            height: 535px;
+            margin-left:510px;
+            margin-top:20px;
+
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Playpen Sans', cursive;
+            margin:20px;
+            padding:20px;
+
+        }
+
+        .text{
+            display:flex;
+            justify-content: center;
+            background-color:rgba(140, 140, 140, 0.8);
+        }
+
+        h2{
+            font-family: 'Playpen Sans', cursive;
+            color:#C70039;
+            align-self: center;
+        }
+
+       input{
+        font-family: 'Playpen Sans', cursive;
+        padding:5px;
+        width:200px;
+       }
+
+       #showTotalAmountToPay{
+        display:flex;
+       }
+
+       #billSplit, #totalTip, #totalAmount{
+        background-color: #C08261;
+        margin:20px;
+        padding:10px;
+        border-radius: 20px;
+        color:black;
+       }
+
+       #tip{
+        font-family: 'Playpen Sans', cursive;
+        display:none;
+       }
+
+       #addTip {
+        background-color:#C08261;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-family: 'Playpen Sans', cursive;
+        
+        }
+        
+        #btn {
+        background-color: #F7DBF0;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        font-family: 'Playpen Sans', cursive;
+        }
+
+
+    @media all and (max-width: 500px) {
+    body {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .text {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #container {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    form {
+        margin: 0;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #addTip, #btn {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #tip {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        display: block;
+    }
+
+    #showTotalAmountToPay {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #billSplit,
+    #totalTip,
+    #totalAmount {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+
